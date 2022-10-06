@@ -1,0 +1,46 @@
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <symbol id="svg00">
+      <g>
+        <circle style="opacity:1;fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="360.321" cy="86.184" r="10.92"/>
+        <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="331.37" y="57.232" rx="10.654" ry="10.654"/>
+      </g>
+    </symbol>
+    <symbol id="svg01">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:3.08216;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="426.309" cy="90.092" rx="10.879" ry="11.57"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="397.358" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+    <symbol id="svg02">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:3.23346;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="492.463" cy="93.467" rx="10.804" ry="12.823"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="463.511" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+    <symbol id="svg03">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:3.37857;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="560.325" cy="97.862" rx="10.731" ry="14.095"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="531.373" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+    <symbol id="svg04">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:3.00838;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="631.637" cy="101.156" rx="10.916" ry="10.986"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="602.686" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+    <symbol id="svg05">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:2.54674;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="700.699" cy="104.663" rx="11.147" ry="7.71"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="671.748" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+    <symbol id="svg06">
+    <g>
+      <ellipse style="opacity:1;fill:none;stroke:#ff0000;stroke-width:2.14135;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" cx="769.647" cy="107.222" rx="11.35" ry="5.353"/>
+      <rect style="opacity:1;fill:none;stroke:#cccccc;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" width="57.903" height="57.903" x="740.696" y="57.232" rx="10.654" ry="10.654"/>
+    </g>
+    </symbol>
+  </g>
+</svg>
