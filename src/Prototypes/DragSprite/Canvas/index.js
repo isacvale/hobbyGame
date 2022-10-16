@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-import { CurrentDragProvider } from "../../hooks/useCurrentDrag.js";
-import { CurrentTargetTileProvider } from "../../hooks/useCurrentTargetTile.js";
+import { CurrentDragProvider } from "../hooks/useCurrentDrag.js";
+import { CurrentTargetTileProvider } from "../hooks/useCurrentTargetTile.js";
 
 const StyledCanvas = styled.div({
   border: "3px solid gold",
   boxSizing: "border-box",
   position: "relative",
-  width: "100vw",
+  width: "100%",
   height: "100vh",
   touchAction: "none",
 });

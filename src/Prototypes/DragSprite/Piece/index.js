@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import Draggable from "react-draggable";
 
-import { useCurrentDrag } from "../../hooks/useCurrentDrag.js";
+import { useCurrentDrag } from "../hooks/useCurrentDrag.js";
 
 const StyledPiece = styled.div(({ position }) => ({
   backgroundColor: "wheat",

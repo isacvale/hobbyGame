@@ -1,31 +1,55 @@
 import React from "react";
+import styled from "@emotion/styled";
 
-import Piece from "./core/Piece/index.js";
-import Tile from "./core/Tile/index.js";
-import Canvas from "./core/Canvas/index.js";
-import Sprite from "./core/Sprite/index.js";
+import DragSprite from "./Prototypes/DragSprite/index.js";
+import DragToTile from "./Prototypes/DragToTiles/index.js";
 
-import Draggable from "react-draggable";
+const protos = {
+  none: () => null,
+  DragSprite,
+  DragToTile,
+}
 
-import { useCurrentTargetTile } from "./hooks/useCurrentTargetTile.js";
-const MonitorState = () => {
-  const [targetTile] = useCurrentTargetTile();
+const Layout = styled.div({
+  display: 'grid',
+  gridTemplateColumns: 'auto 1fr',
+})
 
-  return (
-    <div>
-      <div>targetTile: {targetTile}</div>
-    </div>
-  );
-};
+const StyledSelect = styled.div({
+  alignSelf: 'start',
+  background: '#f8f8f8',
+  display: 'flex',
+  flexDirection: 'column',
+  gap: 8,
+  height: 'calc(100vh - 32px)',
+  padding: 16,
+})
 
-const App = () => (
-  <Canvas>
-    <Draggable>
-      <div style={{ position: "absolute" }}>
-        <Sprite />
-      </div>
-    </Draggable>
-  </Canvas>
-);
+const StyledButton = styled.button(({selected}) => ({
+  background: selected ? 'purple' : 'orange',
+  border: 'none',
+  borderRadius: 8,
+  boxShadow: selected ? '0 0 0 2px purple' : 'none',
+  color: 'white',
+  cursor: 'pointer',
+  fontWeight: 700,
+  padding: '8px 16px',
+}))
+
+const App = () => {
+  const [proto, setProto] = React.useState('none')
+  const handleChange = ({ target: {value}}) => {
+    setProto(value)
+  }
+  return ( 
+  <Layout>
+    <StyledSelect>
+      {Object.keys(protos).map(key => (
+        <StyledButton selected={key === proto} value={key} key={key} onClick={() => setProto(key)}>{key}</StyledButton>
+      ))}
+    </StyledSelect>
+    {protos[proto]()}
+  </Layout>
+)}
 
 export default App;

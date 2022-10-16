@@ -19,7 +19,7 @@ const createSprite = ({
   let currentAnimation = animations[0].key;
   let animation = animations.find((anim) => anim.key === currentAnimation);
   let currentFrame = 0;
-  let stagger = 3;
+  let stagger = 5;
   let stopAnimation = true;
   let animCycle = 0;
 

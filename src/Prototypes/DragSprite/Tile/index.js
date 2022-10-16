@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-import { useCurrentDrag } from "../../hooks/useCurrentDrag.js";
-import { useCurrentTargetTile } from "../../hooks/useCurrentTargetTile.js";
+import { useCurrentDrag } from "../hooks/useCurrentDrag.js";
+import { useCurrentTargetTile } from "../hooks/useCurrentTargetTile.js";
 
 const StyledTile = styled.div(({ position }) => ({
   border: "3px solid pink",
